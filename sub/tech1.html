@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNC</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"><!-- 영어 -->
+    <link rel="stylesheet" href="../css/font.css"><!-- 한글 -->
+
+    <!-- web icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css"><!-- header, footer -->
+    <link rel="stylesheet" href="../css/sub_reset.css"><!-- sub_reset -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/tech1.css"><!-- 내가 맡은 서브 페이지 css -->
+
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/common.js"></script><!-- header, footer -->
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_wrap">
+                <div class="inner">
+                    <h1><a href="../index.html"><img src="../images/common/header_logo.png" alt="SNC"></a></h1>
+                    <nav>
+                        <ul class="gnb">
+                            <li><a href="../sub/intro1.html">기업소개</a>
+                                <ul class="depth2">
+                                    <li><a href="../sub/intro1.html">ceo 인사말</a></li>
+                                    <li><a href="../sub/intro2.html">기업현황</a></li>
+                                    <li><a href="../sub/intro3.html">연혁</a></li>
+                                    <li><a href="../sub/intro4.html">경영이념</a></li>
+                                    <li><a href="../sub/intro5.html">오시는 길</a></li>
+                                </ul><!-- depth2 -->
+                            </li>
+                            <li><a href="../sub/pro1.html">제품안내</a>
+                                <ul class="depth2">
+                                    <li><a href="../sub/pro1.html">LADDER</a></li>
+                                    <li><a href="../sub/pro2.html">SOLID</a></li>
+                                    <li><a href="../sub/pro3.html">PERFORATED</a></li>
+                                    <li><a href="../sub/pro4.html">STRUT</a></li>
+                                    <li><a href="../sub/pro5.html">SUPPORT</a></li>
+                                </ul><!-- depth2 -->
+                            </li>
+                            <li><a href="../sub/tech1.html">용융아연도금</a>
+                                <ul class="depth2">
+                                    <li><a href="../sub/tech1.html">도금공정</a></li>
+                                    <li><a href="../sub/tech2.html">생산설비</a></li>
+                                    <li><a href="../sub/tech3.html">생산환경</a></li>
+                                </ul><!-- depth2 -->
+                            </li>
+                            <li><a href="../sub/rd1.html">R&D CENTER</a>
+                                <ul class="depth2">
+                                    <li><a href="../sub/rd1.html">연구개발</a></li>
+                                    <li><a href="../sub/rd2.html">검사설비</a></li>
+                                </ul><!-- depth2 -->
+                            </li>
+                            <li><a href="../sub/resourses1.html">RESOURCES</a>
+                                <ul class="depth2">
+                                    <li><a href="../sub/resourses1.html">카탈로그 신청</a></li>
+                                    <li><a href="../sub/resourses2.html">인증서</a></li>
+                                    <li><a href="../sub/resourses3.html">실적</a></li>
+                                    <li><a href="../sub/resourses4.html">거래업체</a></li>
+                                </ul><!-- depth2 -->
+                            </li>
+                        </ul><!-- gnb -->
+                    </nav>
+                    <div class="header_right">
+                        <div class="lang">
+                            <p>KR</p>
+                            <i class="bi bi-caret-down-fill" aria-label="언어설정"></i>
+                            <ul class="lang_down">
+                                <li><a href="#">KOREAN</a></li>
+                                <li><a href="#">JAPANESE</a></li>
+                                <li><a href="#">ENGLISH</a></li>
+                            </ul><!-- lang_down -->
+                        </div><!-- lang -->
+                        <div class="ham">
+                            <i class="bi bi-list"></i>
+                        </div><!-- ham -->
+                    </div><!-- header_right -->
+                </div><!-- inner -->
+                <div class="depth2_bg"></div>
+            </div><!-- header_wrap -->
+            <div class="sitemap">
+                <h3>SITE MAP</h3>
+                <ul class="mgnb">
+                    <li><a href="../sub/intro1.html">기업소개</a>
+                        <ul class="mdepth2">
+                            <li><a href="../sub/intro1.html">ceo 인사말</a></li>
+                            <li><a href="../sub/intro2.html">기업현황</a></li>
+                            <li><a href="../sub/intro3.html">연혁</a></li>
+                            <li><a href="../sub/intro4.html">경영이념</a></li>
+                            <li><a href="../sub/intro5.html">오시는 길</a></li>
+                        </ul><!-- mdepth2 -->
+                    </li>
+                    <li><a href="../sub/pro1.html">제품안내</a>
+                        <ul class="mdepth2">
+                            <li><a href="../sub/pro1.html">LADDER</a></li>
+                            <li><a href="../sub/pro2.html">SOLID</a></li>
+                            <li><a href="../sub/pro3.html">PERFORATED</a></li>
+                            <li><a href="../sub/pro4.html">STRUT</a></li>
+                            <li><a href="../sub/pro5.html">SUPPORT</a></li>
+                        </ul><!-- mdepth2 -->
+                    </li>
+                    <li><a href="../sub/tech1.html">용융아연도금</a>
+                        <ul class="mdepth2">
+                            <li><a href="../sub/tech1.html">도금공정</a></li>
+                            <li><a href="../sub/tech2.html">생산설비</a></li>
+                            <li><a href="../sub/tech3.html">생산환경</a></li>
+                        </ul><!-- mdepth2 -->
+                    </li>
+                    <li><a href="../sub/rd1.html">R&D CENTER</a>
+                        <ul class="mdepth2">
+                            <li><a href="../sub/rd1.html">연구개발</a></li>
+                            <li><a href="../sub/rd2.html">검사설비</a></li>
+                        </ul><!-- mdepth2 -->
+                    </li>
+                    <li><a href="../sub/resourses1.html">RESOURCES</a>
+                        <ul class="mdepth2">
+                            <li><a href="../sub/resourses1.html">카탈로그 신청</a></li>
+                            <li><a href="../sub/resourses2.html">인증서</a></li>
+                            <li><a href="../sub/resourses3.html">실적</a></li>
+                            <li><a href="../sub/resourses4.html">거래업체</a></li>
+                        </ul><!-- mdepth2 -->
+                    </li>
+                </ul><!-- mgnb -->
+                <div class="sitemap_close"><i class="bi bi-x-lg" aria-label="사이트맵 닫기"></i></div>
+            </div><!-- sitemap -->
+        </header>
+
+        <div id="container">
+            <div class="sub_visual intro_sv">
+                <h2>Galvanized Iron</h2>
+                <div class="inner">
+                    <div class="gnb_link">
+                        <div class="gnb_tit">용융아연도금 </div>
+                        <ul class="gnb_list">
+                            <li><a href="../sub/tech1.html" class="on">도금공정</a></li>
+                            <li><a href="../sub/tech2.html">생산설비</a></li>
+                            <li><a href="../sub/tech3.html">생산환경</a></li>
+                        </ul><!-- gnb_list -->
+                    </div><!-- gnb_link -->
+                </div><!-- inner -->
+            </div><!-- sub_visual -->
+            <div class="content">
+                <div class="inner">
+
+                    <div class="iron" data-aos="fade-up" data-aos-duration="2000">
+                        <h3>응용아연도금 <br>(Galvanized Iron)</h3>
+                        <div class="iron_img">
+                            <img src="../images/sub/iron1.jpg" alt="융용아연도금 이미지 1"><img src="../images/sub/iron2.jpg"
+                                alt="융용아연도금 이미지2">
+                        </div>
+                        <p>용융아연도금은 금속 표면을 보호하고 성능을 향상시키기 위해 아연을 이용하여 플라스크의 표면을 도금하는 공정입니다. 이러한 공정은 금속 부식 및 부식에 대한 보호를
+                            제공하며, 아연의 도금은 부식 방지뿐만 아니라 미적인 목적으로도 사용됩니다. 이는 자동차 부품, 건설 자재, 전기 제품 및 다양한 산업 분야에서 널리 사용되는 기술
+                            중 하나입니다. 아연은 고체 금속에 비해 부식에 강한 특성을 가지고 있으며, 이것은 용융 아연 도금이 부식에 저항하는 이유 중 하나입니다. 이로써 부식 및 마모로
+                            인한 손상을 방지하고 제품의 수명을 연장할 수 있습니다.</p>
+                        <dl>
+                            <dt>적용 분야</dt>
+                            <dd>송전·배전설비 및 발전소 / 해양플랜트 / 석유/화학 플랜트 / 조선 분야 / 토목/건축 분야 / 태양광 설비 / 도로안전 시설물</dd>
+                        </dl>
+                    </div><!-- iron -->
+
+
+
+                    <div class="process" data-aos="fade-up" data-aos-duration="2000">
+                        <h3>제조공정</h3>
+                        <ul>
+                            <li>
+                                <p><span>STEP1</span><br>열처리</p><img src="../images/sub/process1.jpg" alt="제조공정 이미지1">
+                            </li>
+                            <li>
+                                <p><span>STEP2</span><br>전처리</p><img src="../images/sub/process2.jpg" alt="제조공정 이미지2">
+                            </li>
+                            <li>
+                                <p><span>STEP3</span><br>염산조</p><img src="../images/sub/process3.jpg" alt="제조공정 이미지3">
+                            </li>
+                            <li>
+                                <p><span>STEP4</span><br>플럭스</p><img src="../images/sub/process4.jpg" alt="제조공정 이미지4">
+                            </li>
+                            <li>
+                                <p><span>STEP5</span><br>도금</p><img src="../images/sub/process5.jpg" alt="제조공정 이미지5">
+                            </li>
+                            <li>
+                                <p><span>STEP6</span><br>냉각</p><img src="../images/sub/process6.jpg" alt="제조공정 이미지6">
+                            </li>
+                            <li>
+                                <p><span>STEP7</span><br>후처리/검사</p><img src="../images/sub/process7.jpg"
+                                    alt="제조공정 이미지7">
+                            </li>
+                            <li>
+                                <p><span>STEP8</span><br>출하</p><img src="../images/sub/process8.jpg" alt="제조공정 이미지8">
+                            </li>
+                        </ul>
+                    </div><!-- process -->
+
+
+                    <div class="table" data-aos="fade-up" data-aos-duration="2000">
+                        <h3>도금사양</h3>
+                        <table>
+                            <tr>
+                                <th>Type</th>
+                                <th>Coating Weight(g/㎡)</th>
+                                <th>Coating Weight(㎛)</th>
+                                <th>Application</th>
+                            </tr>
+                            <tr>
+                                <td>HDZ 35</td>
+                                <td>above 350</td>
+                                <td>above 49.0</td>
+                                <td>1.0mm ≤ Thickness ≤ 2.0mm</td>
+                            </tr>
+                            <tr>
+                                <td>HDZ 40</td>
+                                <td>above 400</td>
+                                <td>above 56.0</td>
+                                <td>2.0mm ＜ Thickness ≤ 3.0mm</td>
+                            </tr>
+                            <tr>
+                                <td>HDZ 45</td>
+                                <td>above 450</td>
+                                <td>above 63.0</td>
+                                <td>3.0mm ＜ Thickness ≤ 5.0mm</td>
+                            </tr>
+                            <tr>
+                                <td>HDZ 50</td>
+                                <td>above 500</td>
+                                <td>above 70.0</td>
+                                <td>5.0mm ＜ Thickness</td>
+                            </tr>
+                            <tr>
+                                <td>HDZ 55</td>
+                                <td>above 550</td>
+                                <td>above 77.0</td>
+                                <td>Steels, cast iron, forging iron and etc. in <br> ease rust environment</td>
+                            </tr>
+                            <tr>
+                                <td>HDZ 61</td>
+                                <td>above 610</td>
+                                <td>above 85.4</td>
+                                <td>Thickness more than 5.0mm steels, cast iron, <br> forging iron and etc.  in ease
+                                    rust environment</td>
+                            </tr>
+
+                        </table>
+                        <p>&midast; JIS / BS / ASTM / KS 외 기타 고객 주문 사양가능</p>
+
+
+                    </div>
+
+                </div><!-- inner -->
+            </div><!-- content -->
+        </div><!-- #container -->
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_top">
+                    <div class="footer_logo">
+                        <img src="../images/common/footer_logo.png" alt="SNC">
+                    </div><!-- footer_logo -->
+                    <ul class="link">
+                        <li><a href="#">개인정보보호정책</a></li>
+                        <li><a href="#">이메일주소수집거부</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul><!-- link -->
+                </div><!-- footer_top -->
+                <div class="footer_bottom">
+                    <div class="b_left">
+                        <address>
+                            대표자: 김지수 주소: 경상남도 김해시 유하로 201(유하동)<br>
+                            팩스:055-327-3033 이메일:es.kim@snckr.com
+                        </address>
+                        <div class="copy">
+                            Copyright ⓒ SNC CO., LTD.. All RIGHTS RESERVED.
+                        </div><!-- copy -->
+                    </div><!-- b_left -->
+                    <div class="num">
+                        대표전화<br>
+                        <span>055-327-6023</span>
+                    </div><!-- num -->
+                </div><!-- footer_bottom -->
+            </div><!-- inner -->
+        </footer>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+
+</html>

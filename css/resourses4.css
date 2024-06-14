@@ -1,0 +1,28 @@
+/* intro */
+.intro_sv{position: relative; background: url(../images/sub/resourses_sv.jpg)no-repeat center/cover;}
+
+
+.content{text-align: center;}
+.content h3{font-size: 30px; font-weight: 700; text-align: center;  }
+.client_list{ display: flex;  gap:60px 50px; flex-wrap: wrap; padding: 90px 0 90px 10px ; }
+.client_list li{width: (100% - 180px) / 4;}
+.client_list li img{width: 80%; }
+
+
+
+
+@media(max-width:1200px){
+    .client_list{ gap:50px 30px;  padding: 60px 20px; }
+    .client_list li{width: calc((100% - 100px)  / 3);  }
+.client_list li img{width: 100%; }
+
+
+}
+
+@media(max-width:768px){
+    .content h3{font-size: 24px;}
+    .client_list{ gap:30px 10px;  padding: 50px 20px; }
+    .client_list li{width: calc((100% - 20px)  / 2);  }
+.client_list li img{width: 90%; }
+   
+}

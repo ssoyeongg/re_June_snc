@@ -1,0 +1,46 @@
+
+/* intro */
+.intro_sv{position: relative; background: url(../images/sub/tech_sv.jpg)no-repeat center/cover;}
+
+
+
+.map{text-align: center; margin: auto; }
+.map h3{font-size: 30px; padding-bottom: 60px;}
+.map img{width: 80%; height: 80%;}
+
+
+
+
+.table{text-align: center; padding: 200px 0 100px;  width: 87%; margin: auto; }
+.table h3{font-size: 30px; padding-bottom: 60px;}
+.table table  {font-weight: 400; width: 100%;}
+
+.table table th{background: #D20000; color: #fff; padding: 25px; width: calc(100% / 3); font-weight: 400; font-size: 28px;  }
+.table table th:first-child{border-radius: 15px 0 0 15px; }
+.table table th:last-child{border-radius: 0 15px 15px 0;}
+.table table td{border-bottom: 1px solid #999; padding: 20px 0; font-size: 18px;}
+.table table td:first-child{text-align: left; padding-left: 50px;}
+.table p{text-align: right; padding-top: 25px; font-size: 16px; color: #666666;}
+
+
+
+
+@media(max-width:1200px){
+    .map img{width: 100%; height: 100%;}
+    .table table th{font-size: 20px;  }
+    .table table td{font-size: 16px;  padding: 15px 0;}
+    .table p{font-size: 14px;}
+
+
+
+}
+@media(max-width:768px){
+    .inner h3{font-size: 24px; padding-bottom: 40px;}
+    .map img{width:110%; height: 110%;}
+
+    .table table th{font-size: 15px; padding: 10px;  }
+    .table table td{font-size: 14px;  padding: 10px 0;}
+    .table table td:first-child{ padding-left: 20px;}
+    .table p{font-size: 12px;}
+    
+}

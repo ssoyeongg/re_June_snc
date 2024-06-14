@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNC</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"><!-- 영어 -->
+    <link rel="stylesheet" href="css/font.css"><!-- 한글 -->
+
+    <!-- web icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/common.css"><!-- header, footer -->
+    <link rel="stylesheet" href="css/main.css"><!-- section -->
+
+    <!-- js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script><!-- header, footer -->
+    <script src="js/main.js"></script><!-- section -->
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header_wrap">
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/common/header_logo.png" alt="SNC"></a></h1>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="sub/intro1.html">기업소개</a>
+                            <ul class="depth2">
+                                <li><a href="sub/intro1.html">ceo 인사말</a></li>
+                                <li><a href="sub/intro2.html">기업현황</a></li>
+                                <li><a href="sub/intro3.html">연혁</a></li>
+                                <li><a href="sub/intro4.html">경영이념</a></li>
+                                <li><a href="sub/intro5.html">오시는 길</a></li>
+                            </ul><!-- depth2 -->
+                        </li>
+                        <li><a href="sub/pro1.html">제품안내</a>
+                            <ul class="depth2">
+                                <li><a href="sub/pro1.html">LADDER</a></li>
+                                <li><a href="sub/pro2.html">SOLID</a></li>
+                                <li><a href="sub/pro3.html">PERFORATED</a></li>
+                                <li><a href="sub/pro4.html">STRUT</a></li>
+                                <li><a href="sub/pro5.html">SUPPORT</a></li>
+                            </ul><!-- depth2 -->
+                        </li>
+                        <li><a href="sub/tech1.html">용융아연도금</a>
+                            <ul class="depth2">
+                                <li><a href="sub/tech1.html">도금공정</a></li>
+                                <li><a href="sub/tech2.html">생산설비</a></li>
+                            </ul><!-- depth2 -->
+                        </li>
+                        <li><a href="sub/rd1.html">R&D CENTER</a>
+                            <ul class="depth2">
+                                <li><a href="sub/rd1.html">연구개발</a></li>
+                                <li><a href="sub/rd2.html">검사설비</a></li>
+                            </ul><!-- depth2 -->
+                        </li>
+                        <li><a href="sub/resourses1.html">RESOURCES</a>
+                            <ul class="depth2">
+                                <li><a href="sub/resourses1.html">카탈로그 신청</a></li>
+                                <li><a href="sub/resourses2.html">인증서</a></li>
+                                <li><a href="sub/resourses3.html">실적</a></li>
+                                <li><a href="sub/resourses4.html">거래업체</a></li>
+                            </ul><!-- depth2 -->
+                        </li>
+                    </ul><!-- gnb -->
+                </nav>
+                <div class="header_right">
+                    <div class="lang">
+                        <p>KR</p>
+                        <i class="bi bi-caret-down-fill" aria-label="언어설정"></i>
+                        <ul class="lang_down">
+                            <li><a href="#">KR</a></li>
+                            <li><a href="#">JP</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul><!-- lang_down -->
+                    </div><!-- lang -->
+                    <div class="ham">
+                        <i class="bi bi-list"></i>
+                    </div><!-- ham -->
+                </div><!-- header_right -->
+            </div><!-- inner -->
+            <div class="depth2_bg"></div>
+        </div><!-- header_wrap -->
+        <div class="sitemap">
+            <ul class="mgnb">
+                <li><a href="sub/intro1.html">기업소개</a>
+                    <ul class="mdepth2">
+                        <li><a href="sub/intro1.html">ceo 인사말</a></li>
+                        <li><a href="sub/intro2.html">기업현황</a></li>
+                        <li><a href="sub/intro3.html">연혁</a></li>
+                        <li><a href="sub/intro4.html">경영이념</a></li>
+                        <li><a href="sub/intro5.html">오시는 길</a></li>
+                    </ul><!-- mdepth2 -->
+                </li>
+                <li><a href="sub/pro1.html">제품안내</a>
+                    <ul class="mdepth2">
+                        <li><a href="sub/pro1.html">LADDER</a></li>
+                        <li><a href="sub/pro2.html">SOLID</a></li>
+                        <li><a href="sub/pro3.html">PERFORATED</a></li>
+                        <li><a href="sub/pro4.html">STRUT</a></li>
+                        <li><a href="sub/pro5.html">SUPPORT</a></li>
+                    </ul><!-- mdepth2 -->
+                </li>
+                <li><a href="sub/tech1.html">용융아연도금</a>
+                    <ul class="mdepth2">
+                        <li><a href="sub/tech1.html">도금공정</a></li>
+                        <li><a href="sub/tech2.html">생산설비</a></li>
+                        <li><a href="sub/tech3.html">생산환경</a></li>
+                    </ul><!-- mdepth2 -->
+                </li>
+                <li><a href="sub/rd1.html">R&D CENTER</a>
+                    <ul class="mdepth2">
+                        <li><a href="sub/rd1.html">연구개발</a></li>
+                        <li><a href="sub/rd2.html">검사설비</a></li>
+                    </ul><!-- mdepth2 -->
+                </li>
+                <li><a href="sub/resourses1.html">RESOURCES</a>
+                    <ul class="mdepth2">
+                        <li><a href="sub/resourses1.html">카탈로그 신청</a></li>
+                        <li><a href="sub/resourses2.html">인증서</a></li>
+                        <li><a href="sub/resourses3.html">실적</a></li>
+                        <li><a href="sub/resourses4.html">거래업체</a></li>
+                    </ul><!-- mdepth2 -->
+                </li>
+            </ul><!-- mgnb -->
+            <div class="sitemap_close"><i class="bi bi-x-lg" aria-label="사이트맵 닫기"></i></div>
+        </div><!-- sitemap -->
+    </header>
+
+    <div id="fullpage">
+
+        <div section data-menuanchor="menu1" id="mv" class="section">
+            <div class="titbox">
+                <h2 data-aos="fade-up" data-aos-duration="2000">DREAM UTOPIA</h2>
+                <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">고객의 꿈과 행복을 함께 만들어가는 기업</p>
+            </div><!-- titbox -->
+            <div class="scroll">
+                <span class="stroke"></span>
+                <span class="ball"></span>
+                <span>SCROLL</span>
+            </div><!-- scroll -->
+        </div><!-- #mv -->
+
+        <div section data-menuanchor="menu2" id="company" class="section">
+            <div class="com_img" data-aos="fade-right" data-aos-duration="2000">
+                <img src="images/main/company_main.png" alt="용접하는 사진">
+            </div><!-- comimg -->
+            <div class="inner">
+                <div class="txtbox" data-aos="fade-left" data-aos-duration="1000">
+                    <h2>COMPANY</h2>
+                    <p>앞서나가는 기술력과<br>
+                        노하우로 만드는<br>
+                        <span>고객의 행복</span>
+                    </p>
+                </div><!-- txtbox -->
+                <ul class="com_list">
+                    <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                        <h3>CEO 인사말</h3>
+                        <p>SNC를 찾아주신 고객님께 감사드리며,<br>
+                            신뢰를 바탕으로 희망의 메신저가 되겠습니다.</p>
+                        <div class="btn_more">
+                            <a href="sub/intro1.html">
+                                VIEW MORE
+                            </a>
+                        </div><!-- btn_more -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700">
+                        <h3>연혁</h3>
+                        <p>SNC는 창립 이래로 끊임없는 도전과<br>
+                            혁신을 통해 성장해왔습니다.</p>
+                        <div class="btn_more">
+                            <a href="sub/intro3.html">
+                                VIEW MORE
+                            </a>
+                        </div><!-- btn_more -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
+                        <h3>오시는 길</h3>
+                        <p>편안한 방문을 위해 SNC 본사로<br>
+                            찾아오시는 길을 안내합니다.</p>
+                        <div class="btn_more">
+                            <a href="sub/intro5.html">
+                                VIEW MORE
+                            </a>
+                        </div><!-- btn_more -->
+                    </li>
+                </ul><!-- com_list -->
+            </div><!-- inner -->
+
+        </div><!-- #company -->
+
+        <div section data-menuanchor="menu3" id="tech" class="section fp-auto-height">
+            <div class="inner">
+                <div class="txtbox" data-aos="fade-right" data-aos-duration="1000">
+                    <h2>KEY TECHNOLOGY </h2>
+                    <p>폭 넓은 경험과<br>
+                        정교한 <span>제조 기술</span></p>
+                </div><!-- txtbox -->
+                <dl class="tech_txt" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                    <dt>용융아연도금</dt>
+                    <dd>용융아연도금은 내식성, 성형성, 용접성, 도장성 등이 매우 우수하기 때문에<br>
+                        토목, 건축, 자동차 등 여러 산업 분야에 사용되고 있습니다.</dd>
+                    <div class="btn_more">
+                        <a href="sub/tech1.html">
+                            VIEW_MORE
+                        </a>
+                    </div>
+                </dl><!-- tech_txt -->
+            </div><!-- inner -->
+        </div><!-- #tech -->
+
+        <div section data-menuanchor="menu4" id="product" class="section">
+            <div class="inner">
+                <div class="txtbox" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>PRODUCT</h2>
+                    <p><span>최상의 제품</span> 생산으로<br>
+                        신뢰에 보답하는 기업</p>
+                </div><!-- txtbox -->
+                <div class="pro_control" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="nav">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div><!-- nav -->
+                    <div class="swiper-scrollbar"></div>
+                </div><!-- pro_control -->
+                <div class="swiper pro_slide" data-aos="fade-left" data-aos-duration="1000">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide pro1">
+                            <img src="images/main/pro1.png" alt="LADDER">
+                            <div class="btn_more">
+                                <a href="sub/pro1.html">
+                                    LADDER
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide pro2">
+                            <img src="images/main/pro2.png" alt="SOLID">
+                            <div class="btn_more">
+                                <a href="sub/pro2.html">
+                                    SOLID
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide pro3">
+                            <img src="images/main/pro3.png" alt="PERFORATED">
+                            <div class="btn_more">
+                                <a href="sub/pro3.html">
+                                    PERFORATED
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide pro4">
+                            <img src="images/main/pro4.png" alt="STRUT">
+                            <div class="btn_more">
+                                <a href="sub/pro4.html">
+                                    STRUT
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide pro5">
+                            <img src="images/main/pro5.png" alt="SUPPORT">
+                            <div class="btn_more">
+                                <a href="sub/pro5.html">
+                                    SUPPORT
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- pro_slide -->
+            </div><!-- inner -->
+        </div><!-- #product -->
+
+        <div section data-menuanchor="menu5" id="rd" class="section">
+            <div class="rd_wrap">
+                <div class="rd_left">
+                    <div class="txtbox" data-aos="fade-right" data-aos-duration="1000">
+                        <h2>R&D</h2>
+                        <p>기술 개발</p>
+                    </div><!-- txt_box -->
+                    <div class="rd_txt" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <p>모든 제품은 엄격한 품질 관리를 거쳐<br>
+                            최신 기술을 바탕으로 제작되었으며,<br>
+                            그 결과 신뢰할 수 있는 성능을 자랑합니다.</p>
+                        <div class="btn_more">
+                            <a href="sub/rd1.html">
+                                VIEW_MORE
+                            </a>
+                        </div>
+                    </div><!-- rd_txt -->
+                </div><!-- rd_left -->
+                <div class="rd_right">
+                    <div class="txtbox" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <h2>R&D</h2>
+                        <p>제품 개발</p>
+                    </div><!-- txt_box -->
+                    <div class="rd_txt" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                        <p>최첨단 케이블트레이 제품을 개발하여<br>
+                            고객의 요구를 충족시키고,<br>
+                            효율적인 케이블 관리 솔루션을 제공합니다.</p>
+                        <div class="btn_more">
+                            <a href="sub/rd2.html">
+                                VIEW_MORE
+                            </a>
+                        </div>
+                    </div><!-- rd_txt -->
+                </div><!-- rd_right -->
+            </div><!-- rd_wrap -->
+        </div><!-- #rd -->
+
+
+        <div section data-menuanchor="menu6" id="client" class="section fp-auto-height">
+            <div class="cwrap">
+                <div class="inner">
+                    <div class="txtbox">
+                        <h2 data-aos="fade-right" data-aos-duration="1000">Our Clients</h2>
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">보다 믿음직한 기업이 되기 위해 업계 최고
+                            기술과<br>
+                            글로벌 수준의 제품을 갖추도록 발전해 나갈 것 입니다. </p>
+                    </div><!-- txtbox -->
+                </div><!-- inner -->
+                <div class="client1_wrap">
+                    <ul class="client1">
+                        <li><img src="images/main/client1-1.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-2.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-3.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-4.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-5.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-6.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-7.png" alt="클라이언트 로고"></li>
+                    </ul>
+                    <ul class="client1">
+                        <li><img src="images/main/client1-1.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-2.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-3.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-4.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-5.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-6.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client1-7.png" alt="클라이언트 로고"></li>
+                    </ul>
+                </div><!-- client1_wrap -->
+                <div class="client2_wrap">
+                    <ul class="client2">
+                        <li><img src="images/main/client2-1.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-2.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-3.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-4.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-5.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-6.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-7.png" alt="클라이언트 로고"></li>
+                    </ul>
+                    <ul class="client2">
+                        <li><img src="images/main/client2-1.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-2.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-3.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-4.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-5.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-6.png" alt="클라이언트 로고"></li>
+                        <li><img src="images/main/client2-7.png" alt="클라이언트 로고"></li>
+                    </ul>
+                </div><!-- client2_wrap -->
+            </div><!-- cwrap -->
+        </div><!-- #client -->
+
+        <div section data-menuanchor="menu7" id="info" class="section fp-auto-height">
+            <div class="inner">
+                <ul class="info_list">
+                    <li>
+                        <div class="info_img">
+                            <img src="images/main/info1.png" alt="인증서 확인">
+                        </div><!-- info_img -->
+                        <div class="info_txt">
+                            <h3>인증서 확인</h3>
+                            <div class="btn_more">
+                                <a href="sub/resourses2.html">VIEW MORE</a>
+                            </div><!-- btn_more -->
+                        </div><!-- info_txt -->
+                    </li>
+                    <li>
+                        <div class="info_img">
+                            <img src="images/main/info2.png" alt="제품 카탈로그">
+                        </div><!-- info_img -->
+                        <div class="info_txt">
+                            <h3>제품 카탈로그</h3>
+                            <div class="btn_more">
+                                <a href="sub/resourses1.html">VIEW MORE</a>
+                            </div><!-- btn_more -->
+                        </div><!-- info_txt -->
+                    </li>
+                </ul><!-- info_list -->
+            </div><!-- inner -->
+            <div class="info_bg">
+                <dl class="info_txt">
+                    <dt data-aos="fade-up" data-aos-duration="800">SNC를 더 알고 싶으시다면</dt>
+                    <dd data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">SNC와 제품의 관련된 인증서, 카탈로그를 확인하세요.
+                    </dd>
+                </dl><!-- info_txt -->
+            </div><!-- info_bg -->
+        </div><!-- #info -->
+
+        <footer id="footer" class="section fp-auto-height">
+            <div class="inner">
+                <div class="footer_top">
+                    <div class="footer_logo">
+                        <img src="images/common/footer_logo.png" alt="SNC">
+                    </div><!-- footer_logo -->
+                    <ul class="link">
+                        <li><a href="#">개인정보보호정책</a></li>
+                        <li><a href="#">이메일주소수집거부</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul><!-- link -->
+                </div><!-- footer_top -->
+                <div class="footer_bottom">
+                    <div class="b_left">
+                        <address>
+                            대표자: 김지수 주소: 경상남도 김해시 유하로 201(유하동)<br>
+                            팩스:055-327-3033 이메일:es.kim@snckr.com
+                        </address>
+                        <div class="copy">
+                            Copyright ⓒ SNC CO., LTD.. All RIGHTS RESERVED.
+                        </div><!-- copy -->
+                    </div><!-- b_left -->
+                    <div class="num">
+                        대표전화<br>
+                        <span>055-327-6023</span>
+                    </div><!-- num -->
+                </div><!-- footer_bottom -->
+            </div><!-- inner -->
+        </footer>
+
+    </div><!-- #fullpage -->
+
+    <a href="#menu1" class="gotop">
+        맨 위로 가기
+    </a><!-- gotop -->
+
+    <script>
+
+        $(document).ready(function () {
+            $(".gotop").hide();
+            $('#fullpage').fullpage({
+                //options here
+                onLeave: function (origin, destination, direction, trigger) {
+                    //구역 8에 도착했을 때
+                    if (destination == 8) {
+                        $("#fp-nav").fadeOut();
+                    } else {
+                        $("#fp-nav").fadeIn();
+                    }
+
+                    //구역 2를 떠난 후
+                    if (destination == 2) {
+                        $(".gotop").fadeIn();
+                    }
+                    if (destination == 1) {
+                        $(".gotop").fadeOut();
+                    }
+
+                    $('.section [data-aos]').each(function () {
+                        $(this).removeClass("aos-animate")
+                    });
+                },
+                anchors: ['menu1', 'menu2', 'menu3', 'menu4', 'menu5', 'menu6', 'menu7'], /* 메뉴 이름 지정 */
+                navigation: true, /* 툴팁 보이기 */
+                navigationPosition: 'left', /* 툴팁 위치 */
+                navigationTooltips: ['SNC', 'COMPANY', 'Key Technology', 'PRODUCT', 'R&D', 'Our Clients', 'RESOURCES'], /* 툴팁 이름 */
+                showActiveTooltip: true, /* 스크롤 시 툴팁 이름 보이기 */
+                responsiveWidth: 1201, /* 반응형 옵션 1200px 이하에서 기본 스크롤 */
+                autoScrolling: true,
+                scrollHorizontally: true,
+
+                onSlideLeave: function () {
+                    $('.slide [data-aos]').each(function () {
+                        $(this).removeClass("aos-animate")
+                    });
+                },
+                afterSlideLoad: function () {
+                    $('.slide.active [data-aos]').each(function () {
+                        $(this).addClass("aos-animate")
+                    });
+                },
+                afterLoad: function () {
+                    $('.section.active [data-aos]').each(function () {
+                        $(this).addClass("aos-animate")
+                    });
+                },
+            });
+
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+
+</html>

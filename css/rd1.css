@@ -1,0 +1,83 @@
+/* intro */
+.intro_sv{position: relative; background: url(../images/sub/rd_sv.jpg)no-repeat center/cover;}
+
+.content{padding:0;}
+
+
+.study_mv{background: url(../images/sub/study_mv.jpg) no-repeat center; width: 100%; padding: 300px; color: #fff; }
+.study_mv h3{font-size: 35px;font-weight: 500; line-height: 1.3; }
+.study_mv p{font-size: 18px; padding-top: 40px; font-weight: 300; display: block; word-break: keep-all;}
+
+.study_list{padding-top: 140px; padding-bottom: 50px;}
+.study_list .inner{display: flex; gap: 80px;}
+
+
+.study_list .study_img{width: 40%;}
+.study_list .study_img ul{display: flex; gap: 20px; flex-wrap: wrap; }
+.study_list .study_img ul li{width: calc((100% - 20px)/ 2); position: relative;}
+.study_list .study_img ul li p{position: absolute; top: 50%; left: 50%; transform: translate(-60% , -50%); z-index: 3; color: #fff; font-size: 25px; font-weight: 500;}
+
+.study_list .study_txt{width: 60%;}
+.study_list .study_txt h3{font-size: 30px ; font-weight: 700;}
+.study_list .study_txt h3+p{font-size: 18px; padding: 40px 0 45px; border-bottom: 1px solid #d9d9d9; font-weight: 400;}
+
+.study_list .study_txt .txt_bottom{padding-top: 40px;}
+
+.study_list .study_txt .txt_bottom dl{display: flex; gap: 40px; padding-bottom: 90px;}
+.study_list .study_txt .txt_bottom dl dt{font-size: 25px; font-weight: 600; letter-spacing: -2; word-break: keep-all;}
+.study_list .study_txt .txt_bottom dl dd{font-size: 18px;}
+.study_list .study_txt .txt_bottom dl a{font-size: 16px; padding-top: 20px; display: block; position: relative;}
+.study_list .study_txt .txt_bottom dl a:before{content: ''; background: url(../images/sub/btn_arrow.png) no-repeat; width: 30px; height: 10px;  position: absolute;bottom: 10px; left: 140px;  z-index: 2; transition: all 0.3s;}
+.study_list .study_txt .txt_bottom dl a:after{background: rgba(234, 234, 234,0.9) ; border-radius: 50%; content: ''; width: 30px; height: 30px; position: absolute; bottom: 0; left: 150px;}
+.study_list .study_txt .txt_bottom dl a:hover:before{left: 147px;}
+
+
+
+
+
+
+@media(max-width:1200px){
+    .study_mv{ padding: 150px; color: #fff; }
+    .study_mv h3{font-size: 30px; }
+    .study_mv p{font-size: 18px; padding-top: 30px; }
+
+    .study_list{padding-top: 140px; padding-bottom: 30px;}
+
+    .study_list .inner{ gap: 60px;}
+
+
+.study_list .study_img ul li{width: calc(100%); position: relative;}
+
+    .study_list .study_txt .txt_bottom dl{ gap: 20px; padding-bottom: 70px;}
+.study_list .study_txt .txt_bottom dl dt{font-size: 20px; font-weight: 600; letter-spacing: -3; width: 40%;}
+.study_list .study_txt .txt_bottom dl dd{font-size: 16px;}
+
+   
+
+
+
+}
+
+@media(max-width:768px){
+    .study_mv{ padding: 100px 70px; color: #fff; }
+    .study_mv h3{font-size: 24px; }
+    .study_mv p{font-size: 14px; padding-top: 30px;  }
+
+    .study_list{padding-top: 100px; padding-bottom: 30px;}
+    .study_list .inner{ gap: 30px;}
+
+    .study_list .study_txt h3{font-size: 24px ; }
+.study_list .study_txt h3+p{font-size: 14px; padding: 30px 0 35px; }
+
+
+    .study_list .study_img ul li p{ font-size: 14px; }
+    .study_list .study_txt .txt_bottom dl{ display: block; padding-bottom: 50px;}
+.study_list .study_txt .txt_bottom dl dt{font-size: 18px; font-weight: 600; letter-spacing: -3; padding-bottom: 0px;}
+.study_list .study_txt .txt_bottom dl dd{font-size: 14px;}
+.study_list .study_txt .txt_bottom dl a{font-size: 14px; }
+.study_list .study_txt .txt_bottom dl a:before{bottom: 10px; left: 120px;  }
+.study_list .study_txt .txt_bottom dl a:after{bottom: 0; left: 130px;}
+.study_list .study_txt .txt_bottom dl a:hover:before{left: 127px;}
+
+
+}

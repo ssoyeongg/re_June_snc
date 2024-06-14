@@ -1,0 +1,493 @@
+@charset "utf-8";
+
+/* intro1 */
+.intro_sv{position: relative; background: url(../images/sub/pro_sv.jpg)no-repeat center/cover;}
+
+
+/* content */
+.content .box{
+    padding: 0 200px;
+}
+
+.content .box h3{
+    font-size: 3rem;
+    position: relative;
+    padding: 0 0 20px;
+}
+
+.content .box h3::before{
+    content: "";
+    width: 56px;
+    height: 5px;
+    background: #D20000;
+    position: absolute;
+    top: -18%;
+    left: 0;
+}
+
+.content .pro_des{
+    padding-top: 100px;
+    display: flex;
+    position: relative;
+    gap: 100px;
+}
+
+
+/* 제품 호버영역 */
+.content .pro_des .pro_area .LV{
+    position: absolute;
+    left: 9%;
+    top: 35%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LV::before{
+    content: "1";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LHT{
+    position: absolute;
+    left: 22%;
+    top: 38%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LHT::before{
+    content: "2";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LRR{
+    position: absolute;
+    left: 32%;
+    top: 28%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LRR::before{
+    content: "3";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LVT{
+    position: absolute;
+    left: 17%;
+    top: 44%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LVT::before{
+    content: "4";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LVI{
+    position: absolute;
+    left: 11%;
+    top: 55%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LVI::before{
+    content: "5";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LHC{
+    position: absolute;
+    left: 36.3%;
+    top: 52%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LHC::before{
+    content: "6";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LLR{
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LLR::before{
+    content: "7";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .ORR{
+    position: absolute;
+    left: 29%;
+    top: 78%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .ORR::before{
+    content: "8";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LVO{
+    position: absolute;
+    left: 35.3%;
+    top: 73.5%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LVO::before{
+    content: "9";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content .pro_des .pro_area .LSR{
+    position: absolute;
+    left: 39%;
+    top: 70%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LSR::before{
+    content: "10";
+    padding: 2px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LHB{
+    position: absolute;
+    left: 51.5%;
+    top: 67%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LHB::before{
+    content: "11";
+    padding: 1px 2px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.content .pro_des .pro_area .LBE{
+    position: absolute;
+    left: 53%;
+    top: 73%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LBE::before{
+    content: "12";
+    padding: 2px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content .pro_des .pro_area .LH{
+    position: absolute;
+    left: 56%;
+    top: 52%;
+    border: 2px dashed #D20000;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .pro_des .pro_area .LH::before{
+    content: "13";
+    padding: 2px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/* pro_list */
+.content .pro_des .pro_list{
+    margin-top: 50px;
+    position: relative;
+}
+
+.content .pro_des .pro_list h4{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.content .pro_des .pro_list .pro_img{
+    border: 1px solid #999;
+    width: 300px;
+    height: 300px;
+}
+
+.content .pro_des .pro_list01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list01 h4::before{
+    content: "1";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list02{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list02 h4::before{
+    content: "2";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list03{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list03 h4::before{
+    content: "3";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list04{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list04 h4::before{
+    content: "4";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content .pro_des .pro_list05{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list05 h4::before{
+    content: "5";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list06{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list06 h4::before{
+    content: "6";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list07{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list07 h4::before{
+    content: "7";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list08{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list08 h4::before{
+    content: "8";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list09{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list09 h4::before{
+    content: "9";
+    padding: 1px 6px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content .pro_des .pro_list10{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list10 h4::before{
+    content: "10";
+    padding: 1px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content .pro_des .pro_list10 .pro_img img{
+    margin-top: 20px;
+}
+
+.content .pro_des .pro_list11{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list11 h4::before{
+    content: "11";
+    padding: 1px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content .pro_des .pro_list11 .pro_img img{
+    margin-top: 20px;
+}
+
+.content .pro_des .pro_list12{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list12 h4::before{
+    content: "12";
+    padding: 1px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content .pro_des .pro_list12 .pro_img img{
+    margin-top: 20px;
+}
+
+.content .pro_des .pro_list13{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .pro_des .pro_list13 h4::before{
+    content: "13";
+    padding: 1px 3px;
+    background: #D20000;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content .pro_des .pro_list13 .pro_img img{
+    margin-top: 20px;
+}
+
+
+.content .pro_des .pro_img img{
+    padding: 50px;
+}
+
+.content .more{
+    color: #767676;
+    padding-top: 50px;
+}

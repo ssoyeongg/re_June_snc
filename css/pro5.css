@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.content .gnb_link .gnb_list li a{display: block; padding: 15px 50px; border-bottom: 2px solid rgba(0,0,0,0); border-top: 2px solid rgba(0,0,0,0);}
+.content{padding: 150px 0;}
+
+/* pro5 */
+.pro_sv{position: relative; background: url(../images/sub/pro_sv.png)no-repeat center/cover;}
+
+.content{font-size: 1.8rem;}
+
+.tit h3{position: relative; font-size: 3rem; padding: 0 0 20px; display: inline-block;}
+.tit h3::before{content: ""; position: absolute; left: 0; top: -10px; display: block; width: 56px; height: 7px; background: #d20000;}
+
+.content .inner>ul .pro_con{padding: 100px 0 0;}
+.content .inner>ul .pro_con img{width: 100%;}
+.content .inner>ul .pro_con span{font-size: 1.8rem; font-weight: 400;}
+.content .inner>ul .pro_con h4{position: relative; font-size: 2.5rem; font-weight: 400; padding: 5px 20px;}
+.content .inner>ul .pro_con h4::before{content: ""; position: absolute; left: 5px; top: 50%; transform: translate(0, -50%); display: block; width: 8px; height: 8px; background: #d20000; border-radius: 50%;}
+
+.content .inner>ul .pro_con .con_img{display: flex; gap: 20px;}
+.content .inner>ul .pro_con .con_img p{text-align: center;}
+
+.content .inner>ul .pro_con:nth-child(n+2):nth-child(-n+3) .con_img>div{width: calc((100% - 40px) / 3);}
+.content .inner>ul .pro_con:nth-child(n+4):nth-child(-n+8) .con_img>div{width: calc((100% - 20px) / 2);}
+
+@media(max-width:1200px){
+    .tit h3{font-size: 2.4rem;}
+    .tit h3+p{font-size: 1.6rem;}
+
+    .content .inner>ul .pro_con{padding: 50px 0 0;}
+    .content .inner>ul .pro_con h4{font-size: 2rem; font-weight: 400;}
+    .content .inner>ul .pro_con .con_img p{font-size: 1.4rem;}
+
+    .content .inner>ul .pro_con .con_img{gap: 10px;}
+    .content .inner>ul .pro_con:nth-child(n+2):nth-child(-n+3) .con_img>div{width: calc((100% - 20px) / 3);}
+    .content .inner>ul .pro_con:nth-child(n+4):nth-child(-n+8) .con_img>div{width: calc((100% - 10px) / 2);}
+}
+
+@media(max-width:768px){
+    .sub_visual .inner{position: absolute; width: 100%; left: 50%; bottom: 0; transform: translate(-50%,0); padding: 0;}
+    .tit h3{font-size: 2rem;}
+    .tit h3+p{font-size: 1.2rem;}
+
+    .content .inner>ul .pro_con h4{font-size: 1.8rem;}
+    .content .inner>ul .pro_con .con_img p{font-size: 1.2rem;}
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* pro4 */
+.pro_sv{position: relative; background: url(../images/sub/pro_sv.png)no-repeat center/cover;}
+
+.content{font-size: 1.8rem;}
+
+.tit h3{position: relative; font-size: 3rem; padding: 0 0 20px; display: inline-block;}
+.tit h3::before{content: ""; position: absolute; left: 0; top: -10px; display: block; width: 56px; height: 7px; background: #d20000;}
+
+.content .inner>ul .pro_con{padding: 100px 0 0;}
+.content .inner>ul .pro_con img{width: 100%;}
+.content .inner>ul .pro_con span{font-size: 1.8rem; font-weight: 400;}
+.content .inner>ul .pro_con h4{position: relative; font-size: 2.5rem; font-weight: 400; padding: 5px 20px;}
+.content .inner>ul .pro_con h4::before{content: ""; position: absolute; left: 5px; top: 50%; transform: translate(0, -50%); display: block; width: 8px; height: 8px; background: #d20000; border-radius: 50%;}
+
+.content .inner>ul .pro_con:nth-child(3) .con_img{display: flex; gap: 20px;}
+.content .inner>ul .pro_con:nth-child(3) .con_img>div{width: calc((100% - 40px) / 3); text-align: center;}
+
+.content .inner>ul .pro_con:nth-child(4){display: flex; gap: 20px;}
+.content .inner>ul .pro_con:nth-child(4)>div{width: calc((100% - 20px) / 2);}
+.content .inner>ul .pro_con:nth-child(4)>div p{text-align: center;}
+
+.content .inner>ul .pro_con:nth-child(5){display: flex; gap: 20px;}
+.content .inner>ul .pro_con:nth-child(5)>div{width: calc((100% - 20px) / 2);}
+.content .inner>ul .pro_con:nth-child(5)>div p{text-align: center;}
+
+@media(max-width:1200px){
+    .tit h3{font-size: 2.4rem;}
+    .tit h3+p{font-size: 1.6rem;}
+
+    .content .inner>ul .pro_con:nth-child(3) .con_img{display: flex; gap: 10px;}
+    .content .inner>ul .pro_con:nth-child(3) .con_img>div{width: calc((100% - 20px) / 3); text-align: center;}
+    .content .inner>ul .pro_con:nth-child(4){display: flex; gap: 10px;}
+    .content .inner>ul .pro_con:nth-child(4)>div{width: calc((100% - 10px) / 2);}
+    .content .inner>ul .pro_con:nth-child(5){display: flex; gap: 10px;}
+    .content .inner>ul .pro_con:nth-child(5)>div{width: calc((100% - 10px) / 2);}
+
+    .content .inner>ul .pro_con span{font-size: 1.2rem;}
+
+    .content .inner>ul .pro_con{padding: 50px 0 0;}
+    .content .inner>ul .pro_con h4{font-size: 2rem; font-weight: 400;}
+    .content .inner>ul .pro_con p{font-size: 1.4rem;}
+
+}
+
+@media(max-width:768px){
+    .tit h3{font-size: 2rem;}
+    .tit h3+p{font-size: 1.2rem;}
+
+    .content .inner>ul .pro_con span{font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+    .content .inner>ul .pro_con h4{font-size: 1.8rem;}
+    .content .inner>ul .pro_con .con_img p{font-size: 1.2rem;}
+}

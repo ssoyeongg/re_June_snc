@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* intro1 */
+.intro_sv{position: relative; background: url(../images/sub/resources/res_sv.jpg)no-repeat center/cover;}
+
+/* content */
+.box{
+   padding-right: 98px;
+   padding-bottom: 100px;
+}
+
+.tab_list{
+    display: flex;
+    width: 1070px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tab_list li{
+    padding-bottom: 10px;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer
+}
+
+.tab_list li.on{
+    color: #D20000;
+    border-bottom: 1px solid #D20000;
+}
+
+.tab_list li:first-child{
+    width: calc(100% / 2);
+
+}
+
+.tab_list li:last-child{
+    width: calc(100% / 2);
+}
+
+.list{
+    margin-top: 100px;
+    margin-left: 168px;
+}
+
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.one dt{
+    width: 245px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+dd{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.two{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.two dl:nth-child(odd){
+    width: 200px;
+    height: 280px;
+}
+
+.two dl:nth-child(even){
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.two dt{
+    border: 1px solid #ddd;
+}
+
+@media(max-width:1200px){
+    .box{
+        padding-right: 0;
+        padding-bottom: 80px;
+     }
+     .tab_list{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+     }
+     .list{
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .one dt{
+        width: 150px;
+        height: 180px;
+    }
+
+    .two{
+        width: 90%;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 100px;
+    }
+    .two dl:nth-child(even){
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .box{
+        padding-right: 0;
+        padding-bottom: 80px;
+     }
+     .tab_list{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+
+     }
+     .list{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .one dt{
+        width: 140px;
+        height: 170px;
+    }
+
+    .two{
+        width: 80%;
+        padding-left: 50px;
+        display: flex;
+        gap: 100px;
+        padding-bottom: 100px;
+    }
+    .two dl:nth-child(even){
+        width: 300px;
+        height: 200px;
+        padding-right: 15px;
+    }
+}
